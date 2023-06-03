@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+    
+}
+
+body{
+    background-color: var(--color-primary);
+    font-family:'Lobster', cursive;
+    font-size: 1.1rem;
+    color: var(--color-white);
+    transition: all .4s ease-in-out;
+
+
+}
+
+a{
+    display:inline-block;
+     text-decoration: none;
+     color: inherit;
+     font-family: inherit;
+}
+ header{
+    height: 100vh; 
+     color: var(--color-white); 
+    overflow: hidden;
+    color: #ddd; 
+ }
+ p{
+color: #ddd;
+padding: 5vw;
+ } 
+
+
+Add a black background color to the top navigation 
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(13, 230, 42);
+    color: rgb(214, 11, 11);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #0cda8e;
+    color: white;
+  }
+
+ .btn{
+    color: hsl(270, 16%, 87%);
+    background-color:#42e211 ;
+    margin-left: 10vw;
+    margin-bottom: 14vh;   
+} 
+/* .btn:hover {
+    background-color: RoyalBlue;
+  } */
+  /* .button:hover{
+      background-color: royalblue;
+  } */
+
+
+/* section{
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 3rem 18rem;
+} */
+/* .section{ */
+    /* transform: translateY(-100%) scale(0); */
+    /* transition: all .4s ease-in-out; */
+    /* background-color:var(--color-primary); */
+
+/* }  */
+ .i{
+    background-color: rgb(252, 122, 0);
+    font-family: 'Lobster', cursive;
+}
+ .h2,h3,h4{
+    color: rgb(252, 122, 0);
+    padding-left: 5vw;
+    margin: auto;
+    font-family: 'Lobster', cursive;
+}   
+
+
+
+
